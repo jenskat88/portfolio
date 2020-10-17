@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jordan's Portfolio</title>
+	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/fixed.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/9980bdf6ab.js" crossorigin="anonymous"></script>
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+	<!-- Start home section -->
+	<div id="home">
+		<!-- Navigation -->
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+			<a class="navbar-brand" href="index.html"> <img src="img/Logo.PNG" alt="logo"> </a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about-me">About Me</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#portfolio">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#photos">Photos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!-- End of home sections -->
+		<div class="carousel-item active" style="background-image: url(img/New.JPG)">
+			<div class="carousel-caption text-center">
+				<h1>Welcome!</h1>
+				<h3>Ready to work?</h3>
+			</div>
+		</div>
+
+		<!-- Start About Me Section -->
+		<div id="about-me" class="bio offset">
+			<div class="col-12 text-center">
+				<h3 class="heading">About Me</h3>
+				<div class="heading-underline">
+				</div>
+				<div class="row padding">
+					<div class="col-md-12">
+						<div class="card text-center mx-auto" style="max-width: 600px;">
+							<img class="card-image-top portrait img-fluid" src="img/JordanPortrait1.JPG" alt="Portrait of Jordan" style="max-width: 100;">
+							<div class="card-body">
+								<h4>Jordan Enskat</h4>
+								<p>After spending 10+ years in sales and customer service, I decided I needed a change. I dove head first into programming and have throughly enjoyed the journey. Take a look at some of my work!</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div> <!-- End About Me -->
+		</div><!-- End jumbotron -->
+		<!-- End About Me section -->
+		<!-- Strat Portfolio section -->
+		<div id="portfolio" class="offset">
+			<div class="jumbotron container-fluid">
+				<div class="col-12 text-center">
+					<h3 class="heading">Portfolio</h3>
+					<div class="heading-underline"></div>
+				</div>
+				<div class="row">
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="card text-center">
+								<img class="img-fluid" src="img/portfolio/1.png" alt="clipboard">
+								<div class="card-body">
+									<h4>Project 1</h4>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-4">
+							<div class="card text-center">
+								<img class="img-fluid" src="img/portfolio/2.png" alt="resume">
+								<div class="card-body">
+									<h4>Project 2</h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="card text-center">
+								<img class="img-fluid" src="img/portfolio/1.png" alt="resume">
+								<div class="card-body">
+									<h4>Project 3</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="narrow text-center">
+						<div class="col-12">
+							<p class="lead">Want to know more?</p>
+							<a class="btn btn-secondary btn-md" href="#contact" target="_blank">Contact</a>
+						</div>
+					</div>
+				</div>
+			</div> <!-- End row -->
+		</div> <!-- End jumbotron -->
+	</div>
+	<!-- End Portfolio Section -->
+	<!-- Start Photos section -->
+	<!-- Image slider -->
+	<div class="photos text-center" id="photos">
+		<h3 class="heading">Photos</h3>
+		<div class="heading-underline"></div>
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="7000">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				<li data-target="carouselExampleIndicators" data-slide-to="3"></li>
+				<li data-target="carouselExampleIndicators" data-slide-to="4"></li>
+				<li data-target="carouselExampleIndicators" data-slide-to="5"></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+				<!-- Slide 1 -->
+				<div class="carousel-item active" style="background-image: url(img/Flatlay1.jpg)">
+				</div>
+				<!-- Slide 2 -->
+				<div class="carousel-item" style="background-image: url(img/IMG_1882.JPG)">
+				</div>
+				<!-- Slide 3 -->
+				<div class="carousel-item" style="background-image: url(img/IMG_1741.JPG)">
+				</div>
+				<!-- Slide 4 -->
+				<div class="carousel-item" style="background-image: url(img/Snapseed_2.JPG)">
+				</div>
+				<!-- Slide 5 -->
+				<div class="carousel-item" style="background-image: url(img/Snapseed_6.JPG)">
+				</div>
+				<!-- slide 6 -->
+				<div class="carousel-item" style="background-image: url(img/mountains.jpg)">
+				</div>
+			</div><!-- </div>  End carousel slider -->
+			<!-- Prev & Next Buttons -->
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			</a>
+		</div>
+		<!-- End of image slider	 -->
+	</div>
+	</div><!-- End Photos section -->
+	<!-- Start Contact Section -->
+	<div id="contact" class="offset">
+		<footer>
+			<div class="row justify-content-center">
+				<div class="col-md-5 text-center">
+					<img src="img/Logo.PNG" alt="logo">
+					<br>
+					<strong>Contact Me</strong>
+					<p>jenskat88@icloud.com</p>
+					<a href="https://www.linkedin.com/in/jordanenskat/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+					<a href="https://www.instagram.com/je.toronto/" target="_blank"><i class="fab fa-instagram"></i></a>
+					<a href="https://github.com/jenskat88" target="_blank"><i class="fab fa-github"></i></a>
+				</div>
+				<hr class="socket">
+				&copy; JE Designs
+			</div> <!-- End of row -->
+		</footer>
+	</div>
+	<!--- Script Source Files -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+	<!--- End of Script Source Files -->
+
+</body>
+
+</html>
+
+
+
+
+<!--- Check out my courses! -->
+<!-- <div class="udemy-course" style="position: fixed; bottom: 0; right: 0; margin-bottom: -5px; z-index: 100;">
+	<a href="https://w3newbie.com/courses" target="_blank" style="z-index: 999!important; cursor: pointer!important;"><img src="https://www.w3newbie.com/wp-content/uploads/nuno-course-banner.png" style="max-width: 100%; min-width: 100%;"></a>
+</div> -->
